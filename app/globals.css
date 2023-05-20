@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito+Sans:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --navy-blue: #0039be;
+  --white: #fff;
+  --black: #000;
+  --logo-font: "Dancing Script", cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--white);
 }

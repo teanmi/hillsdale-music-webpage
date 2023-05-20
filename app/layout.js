@@ -1,5 +1,6 @@
 import "./globals.css";
 import Head from "next/head";
+import Navbar from "@/comps/layout/Navbar";
 
 export const metadata = {
   title: "Hillsdale High School Music Department",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
       <body>
+      <Navbar />
         {children}
       </body>
     </html>
