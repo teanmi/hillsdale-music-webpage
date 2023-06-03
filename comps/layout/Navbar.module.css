@@ -1,5 +1,5 @@
 #nav {
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .nav__container {
@@ -15,7 +15,7 @@
 .nav__logo {
   font-family: var(--logo-font);
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
   cursor: pointer;
   margin-left: 16px;
 }
@@ -29,9 +29,9 @@
 }
 
 .nav__link {
-  margin-left: 64px;
+  margin-left: 48px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
   padding: 16px;
 }
@@ -46,7 +46,7 @@
 
 .nav__link--hover::after {
   content: "";
-  border: 2px solid white;
+  border: 2px solid black;
   border-left: none;
   border-bottom: none;
   width: 15px;
@@ -60,7 +60,7 @@
 
 .nav__link--hover::before {
   content: "";
-  border: 2px solid white;
+  border: 2px solid black;
   border-right: none;
   border-top: none;
   width: 15px;
@@ -87,7 +87,7 @@
 /* mobile menu */
 
 .nav__mobileMenu {
-  background-color: var(--black);
+  background-color: var(--white);
   position: absolute;
   top: 0;
   bottom: 0;

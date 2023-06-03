@@ -1,0 +1,9 @@
+#home__header {
+  background-color: var(--navy-blue);
+  padding: 32px 16px;
+}
+
+.header__container {
+  display: flex;
+  
+}
